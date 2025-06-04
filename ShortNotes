@@ -1,0 +1,11 @@
+SHORTNOTES FOR EACH QUESTION
+88 - Merge Sorted Array -> 2 pointer
+27 - Remove Element -> 2 pointer
+26 - Remove Duplicates from Sorted Array -> set
+                                         -> 2 pointer
+80 - Remove Duplicates from Sorted Array II -> 2 pointer
+189 - Rotate Array -> slicing
+                   -> reverse
+169 - Majority Element -> sort 
+                       -> dictionary
+                       -> majrity element ,so will always remain in lead
