@@ -1,0 +1,8 @@
+class Solution(object):
+    def canJump(self, nums):
+        carry = nums[0]
+        for i in range(1,len(nums)):
+            if carry == 0:
+                return False
+            carry = max(carry -1,nums[i])
+        return True
