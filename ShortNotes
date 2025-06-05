@@ -10,3 +10,6 @@ SHORTNOTES FOR EACH QUESTION
                        -> dictionary
                        -> majrity element ,so will always remain in lead
 121 - Best Time to Buy and Sell Stock -> minimum buy price, maximum profit
+122 - Best Time to Buy and Sell Stock II -> greedy(sell at increase)
+55 - Jump Game -> keep a carry to tell which index is accessible
+
