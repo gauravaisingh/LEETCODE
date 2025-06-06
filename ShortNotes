@@ -12,4 +12,7 @@ SHORTNOTES FOR EACH QUESTION
 121 - Best Time to Buy and Sell Stock -> minimum buy price, maximum profit
 122 - Best Time to Buy and Sell Stock II -> greedy(sell at increase)
 55 - Jump Game -> keep a carry to tell which index is accessible
-
+274 -  H-Index -> sorting
+380 - Insert Delete GetRandom O(1) -> use list
+238 - Product of Array Except Self -> use prefix and postfix array (without division)
+                                   -> count zeroes (0 then total_product/current number 1 then all number 0 and zero will have product of remaing if 2 or more then all zeroes)
