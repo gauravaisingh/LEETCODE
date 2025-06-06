@@ -16,3 +16,6 @@ SHORTNOTES FOR EACH QUESTION
 380 - Insert Delete GetRandom O(1) -> use list
 238 - Product of Array Except Self -> use prefix and postfix array (without division)
                                    -> count zeroes (0 then total_product/current number 1 then all number 0 and zero will have product of remaing if 2 or more then all zeroes)
+134 - Gas Station -> if total negative then -1 else will have definetly a solution so whenever negative index should be i+1 
+135 - Candy -> check if left neighbour is smaller than increase candy for right neighbour then iterate backwords and check max value of current candies and right nieghbour candy +1
+
