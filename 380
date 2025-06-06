@@ -1,0 +1,27 @@
+class RandomizedSet(object):
+
+    def __init__(self):
+        self.lst=[]
+        
+
+    def insert(self, val):
+        if val in self.lst:
+            return False
+        else:
+            self.lst.append(val)
+            return True
+        
+
+    def remove(self, val):
+        if val in self.lst:
+            index = self.lst.index(val)
+            self.lst.pop(index)
+            return True
+        else:
+            return False
+        
+
+    def getRandom(self):
+        
+        return random.choice(self.lst)
+        
